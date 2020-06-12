@@ -69,6 +69,6 @@ collections:
     label: "Services"
     folder: "src/pages/services"
     create: true
-     fields:
+    fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
