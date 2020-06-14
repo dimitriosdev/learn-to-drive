@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ ΙΛΙΟΝ
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.webp
 heading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
 subheading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
 mainpitch:
