@@ -139,7 +139,7 @@ intro:
         ΑΦΜ
         Βιβλιάριο Υγείας
         Αξιολόγηση κινητικότητας από ΗΝΙΟΧΟ 
-    - image: /img/e-500x200.png
+    - image: /img/pei-500x200.png
       text: >-
         Τι είναι το ΠΕΙ;
 
@@ -163,12 +163,11 @@ intro:
     τις κατηγορίες διπλωμάτων, με τις πιο σύγχρονες μεθόδους θεωρητικής
     διδασκαλίας και εκπαίδευσης.
 main:
-  heading: Great coffee with no compromises
+  heading: Στη σχολή μας
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Στη σχολή μας παραδίδονται πρακτικά και θεωρητικά μαθήματα για όλες τις
+    κατηγορίες διπλωμάτων, με τις πιο σύγχρονες μεθόδους θεωρητικής διδασκαλίας
+    και εκπαίδευσης.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
