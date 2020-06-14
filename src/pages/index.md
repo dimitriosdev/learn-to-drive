@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ ΙΛΙΟΝ
-image: /img/learn-to-drive-main-web.webp
+image: /img/learn-to-drive-main-web-3-.webp
 heading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
 subheading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
 mainpitch:
