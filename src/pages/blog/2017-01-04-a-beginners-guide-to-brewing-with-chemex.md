@@ -1,29 +1,29 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: Οικολογική οδήγηση
 date: 2017-01-04T15:04:10.000Z
+description: |
+  Οικονομία και οικολογική συνείδηση
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/learn-to-drive-main-web.webp
 tags:
-  - brewing
-  - chemex
+  - οικολογική οδήγηση
+  - ecodrive
 ---
-![chemex](/img/chemex.jpg)
+![eco](/img/learn-to-drive-main-web.webp)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+[![](http://3.bp.blogspot.com/-VTUVWNGYyl0/T16U6_BYdsI/AAAAAAAAARs/fSRMXMWnn6k/s1600/greener-motoring-207429.jpg)](http://3.bp.blogspot.com/-VTUVWNGYyl0/T16U6_BYdsI/AAAAAAAAARs/fSRMXMWnn6k/s1600/greener-motoring-207429.jpg)
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+Η φιλοσοφία πίσω από την εξοικονόμηση ενέργειας είναι η ελαχιστοποίηση των μεταβολών της κινητικής ενέργειας του οχήματος.
 
-## The little secrets of Chemex brewing
+Κατά πρώτον, οικονομία καυσίμου δεν σημαίνει απαραίτητα και οδήγηση με χαμηλή ταχύτητα. Δεν εξοικονομείς καύσιμα εάν σέρνεσαι με 60 km/h, ούτε εάν πατάς απαλά το γκάζι. Το θέμα είναι λίγο πιο πολύπλοκο, γι’ αυτό όσοι ενδιαφέρεστε να κάνετε καλό στην τσέπη σας ή και στον πλανήτη ελάτε να το αναλύσουμε.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+Η γενική φιλοσοφία πίσω από την εξοικονόμηση ενέργειας είναι η ελαχιστοποίηση των μεταβολών της κινητικής ενέργειας του οχήματος. Ό[](http://www.blogger.com/blogger.g?blogID=7898601790028777195)σο πιο ομαλά μεταβάλλουμε την ταχύτητα -είτε πρόκειται να επιταχύνουμε είτε πρόκειται να επιβραδύνουμε- τόσο πιο κερδισμένοι βγαίνουμε. Βασική προϋπόθεση της οικονομίας είναι όχι απότομες επιταχύνσεις και επιβραδύνσεις. Δεν πατάμε ποτέ τέρμα το γκάζι ή το φρένο. Ιδιαίτερα με 1η ή 2α στο κιβώτιο, η βίαιη επιτάχυνση είναι ό,τι χειρότερο από πλευράς κατανάλωσης και εκπομπής ρύπων.
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+Αρκετά σύγχρονα αυτοκίνητα διαθέτουν στις πληροφορίες τους υπολογισμό μέσης αλλά και στιγμιαίας κατανάλωσης. Παρατηρώντας τις μεταβολές των τιμών αυτών μπορείτε να βελτιώσετε σιγά-σιγά την οδήγησή σας όσον αφορά στην οικονομία καυσίμου. Σε κάθε περίπτωση καλό είναι να μη σας γίνει εμμονή και να θυμάστε πάντα ότι προέχει η ασφάλεια.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+[![](http://4.bp.blogspot.com/-3kaoSJIyr-s/T16VGZSG8nI/AAAAAAAAAR0/9Yk8hVixEZc/s200/mmw-eco-driving.jpg)](http://4.bp.blogspot.com/-3kaoSJIyr-s/T16VGZSG8nI/AAAAAAAAAR0/9Yk8hVixEZc/s1600/mmw-eco-driving.jpg)
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+Οι κατασκευαστές αυτοκινήτων ανακοινώνουν τιμές κατανάλωσης που σε καθημερινή χρήση φαντάζουν εξωπραγματικές, όμως είναι πέρα για πέρα ρεαλιστικές, αρκεί να έχει κάποιος λίγη υπομονή. Στο ταξίδι, για παράδειγμα, εάν χρησιμοποιείς cruise control και το ρυθμίσεις στα 120 km/h, η κατανάλωση περιορίζεται σημαντικά.
+
+Αυτό γιατί οι κατασκευαστές αυτοκινήτων μετρούν σ’ αυτή την ταχύτητα την κατανάλωση και ρυθμίζουν έτσι σχέσεις μετάδοσης και χαρτογράφηση κινητήρα ώστε να επιτυγχάνεται η βέλτιστη οικονομία σ’ αυτά τα χιλιόμετρα. Σε κάθε περίπτωση όσο αυξάνεται την ταχύτητα πάνω από τα 120 km/h η κατανάλωση «τρελαίνεται» και μετά τα 140 km/h γίνεται δυσανάλογη της αύξησης της ταχύτητας. Διαγράψτε λοιπόν τις αντικοινωνικές ταχύτητες!
