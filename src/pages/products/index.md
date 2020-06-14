@@ -1,13 +1,12 @@
 ---
-heading: Great coffee with a conscience
+heading: Άδειες οδήγησης
 path: /products
 templateKey: product-page
-title: Our Coffee
+title: Άδειες οδήγησης
 image: /img/jumbotron.jpg
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: • Θεωρητικά και πρακτικά μαθήματα από έμπειρους εκπαιδευτές •
+  Ολοκληρωμένες Υπηρεσίες Έκδοσης Διπλωμάτων • Διεκπεραίωση διαφόρων
+  αυτοκινητιστικών υποθέσεων
 intro:
   blurbs:
     - image: /img/a-500x200.png
