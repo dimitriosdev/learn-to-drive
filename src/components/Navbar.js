@@ -64,7 +64,10 @@ const Navbar = class extends React.Component {
                 Σχετικά με εμάς
               </Link>
               <Link className="navbar-item" to="/products">
-                Υπηρεσίες
+              Άδειες οδήγησης
+              </Link>
+              <Link className="navbar-item" to="/services">
+              Υπηρεσίες
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
