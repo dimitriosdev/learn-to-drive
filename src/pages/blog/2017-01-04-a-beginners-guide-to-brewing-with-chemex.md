@@ -5,7 +5,7 @@ date: 2017-01-04T15:04:10.000Z
 description: |
   Οικονομία και οικολογική συνείδηση
 featuredpost: false
-featuredimage: /img/learn-to-drive-main-web.webp
+featuredimage: /img/products-grid2.jpg
 tags:
   - οικολογική οδήγηση
   - ecodrive
