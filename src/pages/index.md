@@ -1,15 +1,14 @@
 ---
 templateKey: index-page
-title: ΣΧΟΛΗ ΟΔΗΓΩΝ ΙΛΙΟΝ
+title: ΣΧΟΛΗ ΟΔΗΓΩΝ
 image: /img/home-jumbotron.webp
-heading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
-subheading: Χριστοθανοπούλου Πέγκυ & Ρουσελιωτάκης Κωνσταντίνος
+heading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
+subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 mainpitch:
   title: Γιατί εμάς
-  description: |
-    Θεωρητικά και πρακτικά μαθήματα από έμπειρους εκπαιδευτές
-    Ολοκληρωμένες Υπηρεσίες Έκδοσης Διπλωμάτων
-    Διεκπεραίωση διαφόρων αυτοκινητιστικών υποθέσεων
+  description: >
+    Στη σχολή μας συνδυάζουμε την εμπειρία με τη γνώση και θα βρείτε μόνο
+    έμπειρους και καλά καταρτισμένους εκπαιδευτές. 
 description: Θεωρητικά και πρακτικά μαθήματα από έμπειρους εκπαιδευτές
   Ολοκληρωμένες Υπηρεσίες Έκδοσης Διπλωμάτων Διεκπεραίωση διαφόρων
   αυτοκινητιστικών υποθέσεων
@@ -49,7 +48,7 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Great coffee with no compromises!
   description: >
     We hold our coffee to the highest standards from the shrub to the cup.
     That’s why we’re meticulous and transparent about each step of the coffee’s
