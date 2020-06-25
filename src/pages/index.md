@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ
-image: /img/home-jumbotron.webp
+image: /img/corsa-e_.png
 heading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 mainpitch:
