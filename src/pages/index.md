@@ -2,7 +2,7 @@
 templateKey: index-page
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ
 image: /img/corsa-e_.png
-heading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
+heading: Δίπλωμα Οδήγησης
 subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 mainpitch:
   title: Γιατί εμάς
