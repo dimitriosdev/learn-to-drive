@@ -63,6 +63,14 @@ pricing:
       description: sds
       items:
         - sdas
+    - plan: Μετεκπαιδεύσεις
+      price: "33"
+      description: sss
+      items:
+        - sss
+        - ss
+        - sss
+        - ss
 main:
   heading: Εκπαίδευση
   description: >
