@@ -1,15 +1,15 @@
 ---
+heading: Δίπλωμα Οδήγησης
+subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 templateKey: index-page
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ
-subtitle: Subtitle
+subtitle: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 image: /img/corsa-e_.png
 mainpitch:
   title: Γιατί εμάς
   description: >
     Στη σχολή μας συνδυάζουμε την εμπειρία με τη γνώση και θα βρείτε μόνο
     έμπειρους και καλά καταρτισμένους εκπαιδευτές. 
-heading: Δίπλωμα Οδήγησης
-subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -44,6 +44,25 @@ intro:
     Η σωστή εκπαίδευση θέτει τις βάσεις για μια ασφαλή καριέρα ως οδηγός,
     ερασιτέχνης ή επαγγελματίας, και εμείς είμαστε έτοιμοι, και σε θεωρητικό
     αλλά και σε πρακτικό επίπεδο, να σας την προσφέρουμε.
+pricing:
+  heading: services heading
+  description: services description
+  plans:
+    - plan: Ανανέωση - Αναθεώρηση διπλώματος
+      items:
+        - item
+      price: "300"
+      description: plan desc
+    - plan: Επανέκδοση διπλώματος
+      price: "222"
+      description: plan 2 desc
+      items:
+        - items
+    - plan: Ειδική κάρτα ταξί
+      price: "222"
+      description: sds
+      items:
+        - sdas
 main:
   heading: Εκπαίδευση
   description: >
