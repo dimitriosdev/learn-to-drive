@@ -73,7 +73,7 @@ const Navbar = class extends React.Component {
               Υπηρεσίες
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                Νέα
               </Link>
               <Link className="navbar-item" to="/contact">
                 Επικοινωνία
