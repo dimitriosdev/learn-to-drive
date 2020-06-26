@@ -13,8 +13,8 @@ export const IndexPageTemplate = ({
   title,
   subtitle,
   mainpitch,
-  intro,
-  pricing,
+  mainlicences,
+  mainservices,
 }) => (
     <div>
       <div className="layout margin-top-0"
@@ -68,12 +68,12 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        {intro.heading}
+                        {mainlicences.heading}
                       </h3>
-                      <div>{intro.description}</div>
+                      <div>{mainlicences.description}</div>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
+                  <Features gridItems={mainlicences.licences} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
@@ -82,10 +82,10 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <h2 className="has-text-weight-semibold is-size-2">
-                    {pricing && pricing.heading}
+                    {mainservices && mainservices.heading}
                   </h2>
-                  <p className="is-size-5">{pricing && pricing.description}</p>
-                  {pricing && <Pricing data={pricing.plans} />}
+                  <p className="is-size-5">{mainservices && mainservices.description}</p>
+                  {mainservices && <Pricing data={mainservices.services} />}
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/services">
@@ -121,13 +121,15 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  pricing: PropTypes.shape({
+  mainlicences: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
-    plans: PropTypes.array,
+    licences: PropTypes.array,
+  }),
+  mainservices: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    services: PropTypes.array,
   }),
 }
 
@@ -143,8 +145,8 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        intro={frontmatter.intro}
-        pricing={frontmatter.pricing}
+        mainlicences={frontmatter.mainlicences}
+        mainservices={frontmatter.mainservices}
       />
     </Layout>
   )
@@ -173,14 +175,12 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
-        subheading
         mainpitch {
           title
           description
         }
-        intro {
-          blurbs {
+        mainlicences {
+          licences {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -193,14 +193,13 @@ export const pageQuery = graphql`
           heading
           description
         }
-        pricing {
+        mainservices {
           heading
           description
-          plans {
+          services {
+            service
             description
             items
-            plan
-            price
           }
         }
       }
