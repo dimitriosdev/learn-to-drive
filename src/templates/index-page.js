@@ -85,7 +85,7 @@ export const IndexPageTemplate = ({
                     {pricing && pricing.heading}
                   </h2>
                   <p className="is-size-5">{pricing && pricing.description}</p>
-                  <Pricing data={pricing.plans} />
+                  {pricing && <Pricing data={pricing.plans} />}
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/services">
