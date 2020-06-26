@@ -4,17 +4,17 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import Pricing from '../components/Pricing'
 import BlogRoll from '../components/BlogRoll'
 
 
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
-  subheading,
+  subtitle,
   mainpitch,
-  description,
   intro,
+  pricing,
 }) => (
     <div>
       <div className="layout margin-top-0"
@@ -44,7 +44,7 @@ export const IndexPageTemplate = ({
 
               padding: '0.25em',
             }}>
-            {subheading}
+            {subtitle}
           </h3>
         </div>
         <div className="layout__item layout__item--figure">
@@ -68,27 +68,32 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
+                        {intro.heading}
                       </h3>
-                      <p>{description}</p>
+                      <div>{intro.description}</div>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
-                        See all products
+                        Όλες οι άδειες οδήγησης
                     </Link>
                     </div>
                   </div>
+                  <h2 className="has-text-weight-semibold is-size-2">
+                    {pricing && pricing.heading}
+                  </h2>
+                  <p className="is-size-5">{pricing && pricing.description}</p>
+                  <Pricing data={pricing.plans} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+                      Νέα
                   </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
-                        Read more
+                        Περισσότερα
                     </Link>
                     </div>
                   </div>
@@ -104,12 +109,18 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  pricing: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    plans: PropTypes.array,
   }),
 }
 
@@ -121,11 +132,12 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        subtitle={frontmatter.subtitle}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
+        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -146,6 +158,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        subtitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -159,7 +172,6 @@ export const pageQuery = graphql`
           title
           description
         }
-        description
         intro {
           blurbs {
             image {
@@ -173,6 +185,16 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
         }
       }
     }
