@@ -48,21 +48,31 @@ pricing:
   heading: services heading
   description: services description
   plans:
-    - plan: Ανανέωση - Αναθεώρηση διπλώματος
+    - plan: Άδειες Οδήγησης
       items:
-        - item
-      price: "300"
-      description: plan desc
-    - plan: Επανέκδοση διπλώματος
-      price: "222"
-      description: plan 2 desc
+        - Μοτοσυκλέτα Α
+        - Αυτοκίνητο Β
+        - Φορτηγό Γ
+        - Λεωφορείο Δ
+        - Νταλίκα Ε
+        - Π.Ε.Ι.
+        - Α.Μ.Ε.Α.
+      price: 100-200
+      description: "Για όλες τις κατηγορίες οχημάτων:"
+    - plan: Ανανεώσεις Αδειών
+      price: 100-200
+      description: Ανανεώσεις αδειών οδήγησης όλων των κατηγοριών.
       items:
-        - items
-    - plan: Ειδική κάρτα ταξί
-      price: "222"
-      description: sds
+        - C
+        - D
+        - E
+    - plan: Διεκπεραιώσεις
+      price: 100-200
+      description: "Αναλαμβάνουμε για εσάς "
       items:
-        - sdas
+        - ΚΤΕΟ
+        - Μεταβιβάσεις
+        - άδειες ταξί
     - plan: Μετεκπαιδεύσεις
       price: "33"
       description: sss
