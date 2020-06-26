@@ -73,21 +73,6 @@ pricing:
         - ΚΤΕΟ
         - Μεταβιβάσεις
         - άδειες ταξί
-    - plan: Μετεκπαιδεύσεις
-      price: "33"
-      description: sss
-      items:
-        - sss
-        - ss
-        - sss
-        - ss
-    - plan: Κάρτα ψηφιακού ταχογράφου
-      price: "123"
-      description: decs
-      items:
-        - sdk
-        - sdd
-        - sds
 main:
   heading: Εκπαίδευση
   description: >
