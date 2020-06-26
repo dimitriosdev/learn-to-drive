@@ -86,6 +86,13 @@ export const IndexPageTemplate = ({
                   </h2>
                   <p className="is-size-5">{pricing && pricing.description}</p>
                   <Pricing data={pricing.plans} />
+                  <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/services">
+                        Όλες οι υπηρεσίες
+                    </Link>
+                    </div>
+                  </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Νέα
