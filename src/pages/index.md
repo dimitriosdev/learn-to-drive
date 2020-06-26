@@ -71,6 +71,13 @@ pricing:
         - ss
         - sss
         - ss
+    - plan: Κάρτα ψηφιακού ταχογράφου
+      price: "123"
+      description: decs
+      items:
+        - sdk
+        - sdd
+        - sds
 main:
   heading: Εκπαίδευση
   description: >
