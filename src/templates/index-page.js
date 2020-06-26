@@ -117,10 +117,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
   mainlicences: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
@@ -134,19 +131,19 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const {  markdownRemark: post  } = data
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        subtitle={frontmatter.subtitle}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        mainlicences={frontmatter.mainlicences}
-        mainservices={frontmatter.mainservices}
+        image={post.frontmatter.image}
+        title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
+        heading={post.frontmatter.heading}
+        subheading={post.frontmatter.subheading}
+        mainpitch={post.frontmatter.mainpitch}
+        mainlicences={post.frontmatter.mainlicences}
+        mainservices={post.frontmatter.mainservices}
       />
     </Layout>
   )
