@@ -2,8 +2,36 @@
 heading: Δίπλωμα Οδήγησης
 subheading: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 templateKey: index-page
+pricing:
+  heading: services heading
+  description: services description
+  plans:
+    - plan: Άδειες Οδήγησης
+      items:
+        - Μοτοσυκλέτα Α
+        - Αυτοκίνητο Β
+        - Φορτηγό Γ
+        - Λεωφορείο Δ
+        - Νταλίκα Ε
+        - Π.Ε.Ι.
+        - Α.Μ.Ε.Α.
+      price: 100-200
+      description: "Για όλες τις κατηγορίες οχημάτων:"
+    - plan: Ανανεώσεις Αδειών
+      price: 100-200
+      description: Ανανεώσεις αδειών οδήγησης όλων των κατηγοριών.
+      items:
+        - C
+        - D
+        - E
+    - plan: Διεκπεραιώσεις
+      price: 100-200
+      description: "Αναλαμβάνουμε για εσάς "
+      items:
+        - ΚΤΕΟ
+        - Μεταβιβάσεις
+        - άδειες ταξί
 title: ΣΧΟΛΗ ΟΔΗΓΩΝ
-subtitle: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
 image: /img/corsa-e_.png
 mainpitch:
   title: Γιατί εμάς
@@ -44,35 +72,32 @@ intro:
     Η σωστή εκπαίδευση θέτει τις βάσεις για μια ασφαλή καριέρα ως οδηγός,
     ερασιτέχνης ή επαγγελματίας, και εμείς είμαστε έτοιμοι, και σε θεωρητικό
     αλλά και σε πρακτικό επίπεδο, να σας την προσφέρουμε.
-pricing:
-  heading: services heading
-  description: services description
-  plans:
-    - plan: Άδειες Οδήγησης
+subtitle: Χριστοθανοπούλου Πέγκυ - Ρουσελιωτάκης Κωνσταντίνος
+mainlicences:
+  heading: oi adeies heading
+  description: oi adeies description
+  licences:
+    - image: /img/a-500x200.png
+      text: adeia moto
+    - image: /img/b-500x200.png
+      text: adeia auto
+mainservices:
+  heading: ipiresies
+  description: ipiresies description
+  services:
+    - service: ipiresia 1
+      description: ipiresia 1 description
       items:
-        - Μοτοσυκλέτα Α
-        - Αυτοκίνητο Β
-        - Φορτηγό Γ
-        - Λεωφορείο Δ
-        - Νταλίκα Ε
-        - Π.Ε.Ι.
-        - Α.Μ.Ε.Α.
-      price: 100-200
-      description: "Για όλες τις κατηγορίες οχημάτων:"
-    - plan: Ανανεώσεις Αδειών
-      price: 100-200
-      description: Ανανεώσεις αδειών οδήγησης όλων των κατηγοριών.
+        - ena
+        - dyo
+        - tria
+    - service: ipiresia 2
+      description: ipiresia 2 description
       items:
-        - C
-        - D
-        - E
-    - plan: Διεκπεραιώσεις
-      price: 100-200
-      description: "Αναλαμβάνουμε για εσάς "
-      items:
-        - ΚΤΕΟ
-        - Μεταβιβάσεις
-        - άδειες ταξί
+        - ena
+        - dyo
+        - tria
+        - tesera
 main:
   heading: Εκπαίδευση
   description: >
