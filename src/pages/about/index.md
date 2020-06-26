@@ -1,6 +1,10 @@
 ---
 templateKey: about-page
 path: /about
+slidergallery:
+  galleryitems:
+    - image: /img/products-grid1.jpg
+    - image: /img/products-grid2.jpg
 title: Ποιοι είμαστε
 intro:
   heading: test
@@ -10,6 +14,7 @@ intro:
       text: require text
     - image: /img/sxoli03.webp
       text: required text
+testimonialsheading: Τι λένε για εμάς
 testimonials:
   - quote: test quote
     author: Mathitis 1
