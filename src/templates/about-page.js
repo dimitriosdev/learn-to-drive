@@ -9,21 +9,12 @@ import { AutoplaySlider } from '../components/AwesomeSlider'
 
 export const AboutPageTemplate = ({ title, slidergallery, testimonials, testimonialsheading, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-  const slides = [];
-  const images = (slidergallery.galleryitems.map(i => {
-    const slide = {};
-    slide["source"] = i.image.childImageSharp.fluid.src;
-    slides.push(slide);
-  }))
-  const imgs = (slides.map(slide => slide.source));
-
   const slider = (
     <AutoplaySlider
       play={true}
       cancelOnInteraction={false} // should stop playing on user interaction
       interval={6000}
     >
-      
       <div data-src="http://www.magnumdrivingschooledinburgh.co.uk/wp-content/uploads/2018/09/Test-Drive-Tips-800x600.jpg" />
       <div data-src="http://www.magnumdrivingschooledinburgh.co.uk/wp-content/uploads/2018/09/Kratom-and-Driving-1024x576.jpg" />
     </AutoplaySlider>
