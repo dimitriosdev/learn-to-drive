@@ -139,8 +139,6 @@ const IndexPage = ({ data }) => {
         image={post.frontmatter.image}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
-        heading={post.frontmatter.heading}
-        subheading={post.frontmatter.subheading}
         mainpitch={post.frontmatter.mainpitch}
         mainlicences={post.frontmatter.mainlicences}
         mainservices={post.frontmatter.mainservices}
